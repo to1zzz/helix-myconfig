@@ -1,2 +1,10 @@
 theme = "gruvbox"
-# lol
+
+[editor]
+default-yank-register = "+"
+color-modes = true
+
+[editor.statusline]
+left = ["mode", "spacer", "file-name", "spacer", "version-control"]
+right = ["diagnostics", "spacer", "selections", "register", "position"]
+separator = "│"
