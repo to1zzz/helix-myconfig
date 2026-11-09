@@ -3,10 +3,15 @@ theme = "gruvbox"
 [editor]
 default-yank-register = "+"
 color-modes = true
+lsp.display-messages = true
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
-center = [] 
-right = ["diagnostics", "spacer", "version-control", "spacer", "selections", "spacer", "position-percentage", "spacer", "position", "file-type"]
+left = ["mode", "read-only-indicator", "spacer", "version-control", "spacer", "spinner"] 
+center = ["file-modification-indicator", "file-name"]
+right = ["diagnostics", "selections", "spacer", "position-percentage", "spacer", "position"] 
 
 diagnostics = ["error", "warning", "info", "hint"]
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
