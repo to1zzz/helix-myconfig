@@ -7,8 +7,8 @@ lsp.display-messages = true
 line-number = "relative"
 
 [editor.statusline]
-left = ["mode", "read-only-indicator", "file-type", "spacer", "version-control", "spacer", "spinner"] 
-center = ["file-modification-indicator", "file-name"]
-right = ["diagnostics", "selections", "spacer", "position-percentage", "spacer", "position"] 
+left = ["mode", "file-name", "spacer", "version-control", "spacer", "spinner"] 
+center = ["file-modification-indicator", "read-only-indicator"] 
+right = ["diagnostics", "selections", "spacer", "position-percentage", "spacer", "position", "file-type"] 
 
 diagnostics = ["error", "warning", "info", "hint"]
