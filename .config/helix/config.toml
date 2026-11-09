@@ -5,9 +5,8 @@ default-yank-register = "+"
 color-modes = true
 
 [editor.statusline]
-left = ["mode", "file-name", "spacer", "version-control"]
-right = ["diagnostics", "spacer", "selections", "register", "position"]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
+center = [] 
+right = ["diagnostics", "spacer", "version-control", "spacer", "selections", "spacer", "position-percentage", "spacer", "position", "file-type"]
 
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
+diagnostics = ["error", "warning", "info", "hint"]
