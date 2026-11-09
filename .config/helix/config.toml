@@ -8,3 +8,7 @@ color-modes = true
 left = ["mode", "spacer", "file-name", "spacer", "version-control"]
 right = ["diagnostics", "spacer", "selections", "register", "position"]
 separator = "│"
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
