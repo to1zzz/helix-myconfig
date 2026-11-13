@@ -5,7 +5,7 @@ default-yank-register = "+"
 color-modes = true
 lsp.display-messages = true
 line-number = "relative"
-"version-control", "spacer", 
+auto-format = true
 
 [editor.statusline]
 left = ["mode", "spinner", "read-only-indicator", "file-name", "spacer", "version-control"] 
