@@ -1,2 +1,1 @@
-# helix-myconfig
-Helix >>>> Vim/Neovim
+# helix>>>vim/nvim
