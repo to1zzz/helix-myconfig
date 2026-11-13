@@ -1,0 +1,33 @@
+# ~/.config/helix/languages.toml
+
+# Bash
+[[language]]
+name = "bash"
+auto-format = true
+indent = { tab-width = 4, unit = " " }
+formatter = { command = "shfmt", args = ["-i", "4"] }
+
+# Rust
+[[language]]
+name = "rust"
+auto-format = true
+formatter = { command = "rustfmt" }
+language-servers = ["rust-analyzer"]
+
+# Go
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "gofmt" }
+language-servers = ["gopls"]
+
+# Python 
+[[language]]
+name = "python"
+auto-format = true
+language-servers = ["ruff", "pylsp"] 
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
