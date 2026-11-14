@@ -63,16 +63,5 @@ My simple [Helix](https://helix-editor.com/) config. Because sometimes you want 
 | `A-r` | reload config + buffer |
 | `A-c` | open `config.toml` |
 
----
-
-## 🚀 Install
-
 ```bash
-git clone https://github.com/<your-name>/helix-config.git ~/.config/helix
-```
-
-Or just copy `config.toml` to `~/.config/helix/config.toml`.
-
-## 📜 License
-
-MIT. Do whatever. Just don't say it's bett
+git clone https://github.com/<your-name>/helix-confi
