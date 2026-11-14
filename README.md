@@ -2,8 +2,7 @@
 
 **helix better vim**
 
-My simple [Helix](https://helix-editor.com/) config. Because sometimes you want Vim's power without turning your `~/.config` into a plugin manager.
-
+My simple [Helix](https://helix-editor.com/) config.
 > *I still like Vim. From a safe distance.*
 
 ---
@@ -63,5 +62,13 @@ My simple [Helix](https://helix-editor.com/) config. Because sometimes you want 
 | `A-r` | reload config + buffer |
 | `A-c` | open `config.toml` |
 
+---
+
+## 🚀 Install
+
 ```bash
-git clone https://github.com/<your-name>/helix-confi
+git clone https://github.com/<your-name>/helix-config.git ~/.config/helix
+```
+Or just copy `config.toml` to `~/.config/helix/config.toml`.
+
+---
