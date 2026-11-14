@@ -1,6 +1,6 @@
 # ~/.config/helix/config.toml
-# theme = "gruvbox"
-theme = "gruvbox-material"
+theme = "gruvbox"
+# theme = "gruvbox-material"
 
 # Editor
 [editor]
