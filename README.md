@@ -4,6 +4,7 @@
 
 My simple [Helix](https://helix-editor.com/) config.
 > *I still like Vim. From a safe distance.*
+> 68 (59) lines
 
 ---
 
