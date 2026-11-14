@@ -2,8 +2,8 @@
 
 **helix better vim**
 
-My simple [Helix](https://helix-editor.com/) config. Lines in total: 68 (59).
-> *I still like Vim. From a safe distance.*
+My simple [Helix](https://helix-editor.com/) config. 
+> Lines in total: 68 (59)
 
 ---
 
