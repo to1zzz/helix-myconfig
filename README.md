@@ -3,7 +3,7 @@
 **helix better vim**
 
 My simple [Helix](https://helix-editor.com/) config. 
-> Lines in total: 68 (59)
+> need lazygit+yazi
 
 ---
 
