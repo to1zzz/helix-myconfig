@@ -27,9 +27,31 @@ select = "underline"
 "C-j" = ["extend_to_line_bounds", "delete_selection", "move_line_down", "paste_before"]
 "C-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up",   "paste_before"]
 
+# git
+C-g = [
+    ':write-all',
+    ':new',
+    ':insert-output lazygit',
+    ':set mouse false',
+    ':set mouse true',
+    ':buffer-close!',
+    ':redraw',
+    ':reload-all',
+]
+
 [keys.normal."A-g"]
 b = ":sh git blame -L %{cursor_line},+1 %{buffer_name}"
 s = ":sh git status --porcelain"
 l = ":sh git log --oneline -10 %{buffer_name}"
 B = ":sh git branch --show-current"
 S = ":sh git status"
+
+# yazi
+[keys.normal.space]
+e = [
+    ':sh rm -f /tmp/unique-file',
+    ':insert-output yazi "%{buffer_name}" --chooser-file=/tmp/unique-file',
+    ':sh printf "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+    ':open %sh{cat /tmp/unique-file}',
+    ':redraw',
+]
