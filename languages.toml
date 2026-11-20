@@ -6,6 +6,27 @@ name = "bash"
 auto-format = true
 indent = { tab-width = 4, unit = " " }
 formatter = { command = "shfmt", args = ["-i", "4"] }
+file-types = [
+  "conf",
+  "sh",
+  "bash",
+  "zsh",
+  ".bash_login",
+  ".bash_logout",
+  ".bash_profile",
+  ".bashrc",
+  ".profile",
+  ".zshenv",
+  ".zlogin",
+  ".zlogout",
+  ".zprofile",
+  ".zshrc",
+  "APKBUILD",
+  "PKGBUILD",
+  "eclass",
+  "ebuild",
+  "bazelrc",
+]
 
 # Rust
 [[language]]
@@ -14,7 +35,7 @@ auto-format = true
 formatter = { command = "rustfmt" }
 language-servers = ["rust-analyzer"]
 
-# Go
+ # Go
 [[language]]
 name = "go"
 auto-format = true
